@@ -1,7 +1,7 @@
-var min = 5;
-var max = 20;
+var min = parseInt(prompt("Dame un punto minimo:"));
+var max = parseInt(prompt("Dame un punto maximo:"));
 var point = 13;
 
-console.log(point < min || max < point);
+alert(point < min || max < point);
 
 
